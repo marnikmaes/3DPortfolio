@@ -21,7 +21,7 @@ const renderContent = {
     ),
     2: (
         <InfoBox 
-            text="I Always Strive To Improve My Technology Skills On Every Level"
+            text="I am an enthusiastic IT student with a passion for continuous learning and growth. Wanna learn more about me?"
             link="/about"
             btnText="Learn more"
         />
