@@ -32,11 +32,11 @@ const Home = () => {
     let screenScale, screenPosition;
 
     if(window.innerWidth < 768) {
-      screenScale = [1.5, 1.5, 1.5];
-      screenPosition = [0, -1.5, 0];
+      screenScale = [1.25, 1.25, 1.25];
+      screenPosition = [0, 0, 0];
     } else {
-      screenScale = [3, 3, 3];
-      screenPosition = [0, -4, -4];
+      screenScale = [2.5, 2.5, 2.5];
+      screenPosition = [0, 0, -4];
     }
 
     return [ screenScale, screenPosition]
@@ -72,8 +72,8 @@ const Home = () => {
           />
           <Plane
             isRotating={isRotating}
-            planeScale={planeScale}
-            planePosition={planePosition}
+            scale={planeScale}
+            position={planePosition}
             rotation={[0,20,0]}
           />
 

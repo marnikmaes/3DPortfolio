@@ -4,7 +4,7 @@ const CTA = () => {
   const copyEmailToClipboard = () => {
     navigator.clipboard.writeText('marnikmaes46@hotmail.com')
       .then(() => {
-        alert('You have copied my email. Please contact me!');
+        alert("You've copied my email. Don't hesitate to send me a message!");
       })
       .catch((error) => {
         console.error('Failed to copy email address: ', error);
