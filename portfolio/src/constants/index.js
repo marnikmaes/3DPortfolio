@@ -92,7 +92,7 @@ export const experiences = [
         title: "Industrial Science STEM",
         company_name: "'t Peperstraatje High School",
         icon: kogeka,
-        iconBg: "#A8CBFF",
+        iconBg: "#FFF2B0",
         date: "September 2015 - June 2017",
         points: [
             "Studied IW STEM (Science, Technology, Engineering, Mathematics) in my first two years of high school",
@@ -106,7 +106,7 @@ export const experiences = [
         title: "Mechatronics Sciences",
         company_name: "Sint Jozef Geel High School",
         icon: kogeka,
-        iconBg: "#A8CBFF",
+        iconBg: "#AAF9FF",
         date: "September 2017 - June 2019",
         points: [
             "Studied Mechatronics Sciences in my third and fourth year of high school",
@@ -118,7 +118,7 @@ export const experiences = [
         title: "Electronics ICT",
         company_name: "Sint Jozef Geel High School",
         icon: kogeka,
-        iconBg: "#A8CBFF",
+        iconBg: "#AAF9FF",
         date: "September 2019 - June 2021",
         points: [
             "Studied Electronics ICT in my final two years of high school",
@@ -131,7 +131,7 @@ export const experiences = [
         title: "Applied Computer Science",
         company_name: "Thomas More Geel College",
         icon: college,
-        iconBg: "#A8CBFF",
+        iconBg: "#f59d7e",
         date: "September 2021 - June 2022",
         points: [
             "Studied Applied Computer Science in my first year of college",
@@ -143,7 +143,7 @@ export const experiences = [
         title: "Digital Innovation",
         company_name: "Thomas More Geel College",
         icon: college,
-        iconBg: "#A8CBFF",
+        iconBg: "#f59d7e",
         date: "September 2022 - present day",
         points: [
             "Studied Digital Innovation as specialization in my final two years of college",
