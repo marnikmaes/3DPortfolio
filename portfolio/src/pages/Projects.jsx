@@ -15,11 +15,9 @@ const Projects = () => {
             </h1>
 
             <p className='text-slate-500 mt-2 leading-relaxed'>
-                I've embarked on numerous projects throughout the years, but these are
-                the ones I hold closest to my heart. Many of them are open-source, so if
-                you come across something that piques your interest, feel free to
-                explore the codebase and contribute your ideas for further enhancements.
-                Your collaboration is highly valued!
+            During my two years studying Digital Innovation, I've worked on a bunch of amazing projects for different people. 
+            From crafting websites to diving into game development to creating interactive AR experiences, it's been a wild ride!
+            Check out some of my favorite projects below.
             </p>
             <div className='flex flex-wrap my-20 lg:gap-24 gap-16'>
                 {projects.map((project) => (
