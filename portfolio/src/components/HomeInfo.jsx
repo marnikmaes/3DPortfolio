@@ -35,10 +35,12 @@ const renderContent = {
     ),
     4: (
         <InfoBox 
-        text="Want to get in touch with me? Well I'm just a few keystrokes away"
-        link="/contact"
-        btnText="Let's talk"
-    />
+            text="Looking for a more traditional portfolio? I've got one of those too. Feel free to take a look!"
+            link='https://marnikmaes.netlify.app/'
+            target='_blank'
+            rel='noopener noreferrer'
+            btnText="traditional portfolio"
+        />
     )
 }
 
