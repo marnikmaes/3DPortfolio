@@ -28,7 +28,7 @@ const renderContent = {
     ),
     3: (
         <InfoBox 
-        text="I've created many amazing projects in my DI years, curious to see them all?"
+        text="During my two years studying Digital Innovation, I've worked on a bunch of amazing projects for different people, curious to see them all?"
         link="/projects"
         btnText="Visit my portfolio"
         />
