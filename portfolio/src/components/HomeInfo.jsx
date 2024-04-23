@@ -28,18 +28,18 @@ const renderContent = {
     ),
     3: (
         <InfoBox 
-        text="During my two years studying Digital Innovation, I've worked on a bunch of amazing projects for different people, curious to see them all?"
+        text="During my two years studying Digital Innovation, I've worked on a bunch of amazing projects for different people. Curious to see them all?"
         link="/projects"
         btnText="Visit my portfolio"
         />
     ),
     4: (
         <InfoBox 
-            text="Looking for a more traditional portfolio? I've got one of those too. Feel free to take a look!"
-            link='https://marnikmaes.netlify.app/'
+            text="As the final stretch of my last year, I completed a 13-week application development internship at Netropolix. Seems interesting, right?"
+            link='/internship'
             target='_blank'
             rel='noopener noreferrer'
-            btnText="traditional portfolio"
+            btnText="Internship at Netropolix"
         />
     )
 }
