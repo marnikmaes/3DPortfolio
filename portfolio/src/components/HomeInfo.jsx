@@ -35,7 +35,7 @@ const renderContent = {
     ),
     4: (
         <InfoBox 
-            text="As the final stretch of my last year, I completed a 13-week application development internship at Netropolix. Seems interesting, right?"
+            text="As the final stretch of my last year, I completed a 13-week application development internship at Netropolix. Sounds interesting, right?"
             link='/internship'
             target='_blank'
             rel='noopener noreferrer'
