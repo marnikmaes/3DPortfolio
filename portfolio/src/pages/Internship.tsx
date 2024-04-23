@@ -19,46 +19,80 @@ const Internship = () => {
                 For a comprehensive documentation, visit <span><Link to={'https://marnikmaes-internship2024.netlify.app/'} className='font-semibold blue-gradient_text'>my internship documentation website</Link></span>.
             </p>
 
-            <div className='py-10'>
+            <div className='py-5'>
                 <div className='pb-5 text-2xl font-poppins font-semibold'>
-                    <h2>What is Netropolix and why did I choose them?</h2>
+                    <h2>Netropolix</h2>
                 </div>
                 <img src={squareOne} alt="Square One building" className='w-fit h-fit rounded-2xl drop-shadow-md'/>
-                <p className='pt-2 italic text-slate-500 leading-relaxed text-sm'>Square One building, 2440 Geel</p>
-                <p className='pt-3 text-slate-500 leading-relaxed'>
+                <p className='pt-1 italic text-slate-500 leading-relaxed text-sm'>Square One building, 2440 Geel</p>
+                <p className='pt-4 text-slate-500 leading-relaxed'>
+                    <span className='font-semibold'>What is Netropolix?</span><br/>
                     Netropolix is an in-house IT company in Geel's Square One building, founded in 1999. Starting with a small accounting package, 
                     it's now a growing company with 70 employees offering personalized IT solutions and proactive support. They view IT like a light bulb: 
                     it works in the background when switched on.
                 </p>
                 <p className='pt-4 text-slate-500 leading-relaxed'>
+                    <span className='font-semibold'>Why have I chosen them as my internship location?</span><br/>
                     I chose Netropolix for several reasons. After positive research on the work environment, I connected well with the staff during intake talks. 
                     Many Thomas More students interned here, with most having positive experiences, as confirmed by my internship coach. 
                     Plus, it's only a 5-minute bike ride from my home!
                 </p>
             </div>
 
-            <div className='pb-10'>
-                <div className='pb-5 text-2xl font-poppins font-semibold'>
+            <div className='pb-5'>
+                <div className='pb-4 text-2xl font-poppins font-semibold'>
                     <h2>Dobby.Online</h2>
                 </div>
                 <p className='text-slate-500 leading-relaxed'>
+                    <span className='font-semibold'>Who or What is Zeron?</span><br/>
                     During my internship at Netropolix, I'll work on a project for Zeron, 
                     a real estate software company known for Syndesk and Rentdesk. Acquired by the Garantis group in 2022, 
                     Zeron aims to enhance client solutions.
                 </p>
                 <p className='pt-4 text-slate-500 leading-relaxed'>
+                    <span className='font-semibold'>Dobby.Online?</span><br/>
                     Dobby.Online will bring together Zeron's features from platforms like Syndesk and Rentdesk into one easy-to-use platform. 
                     Instead of juggling multiple platforms, Dobby.Online will make everything smoother. 
                     It will utilize advanced technologies to make both the front and back ends better, making previously challenging tasks achievable.
                 </p>
                 <p className='pt-4 text-slate-500 leading-relaxed'>
+                    <span className='font-semibold'>Scope on the syndic?</span><br/>
+                    A syndic is essentially a property manager tasked with overseeing the common areas and facilities of condominiums 
+                    or apartment buildings. Their responsibilities typically involve managing maintenance and repairs, handling finances 
+                    and budgets, enforcing community rules, and advocating for the interests of property owners or homeowners associations.
+
+                    During my internship, I'll focus on creating functionalities for syndics. 
+                    Given the platform's future growth, this focus on one user group is necessary to ensure quality results.
+
+                </p>
+                <p className='pt-4 text-slate-500 leading-relaxed'>
+                    <span className='font-semibold'>What will I be doing during my internship?</span><br/>
                     For my internship, I'll be hands-on in creating this platform from scratch. 
                     This includes everything from designing to actual development, giving me valuable experience in building a new platform.
                 </p>
             </div>
 
+            <div className='pb-5'>
+                <div className='pb-4 text-2xl font-poppins font-semibold'>
+                    <h2>Smartflows</h2>
+                </div>
+                <p className='text-slate-500 leading-relaxed'>
+                    <span className='font-semibold'>What is a smartflow?</span><br/>
+                    The main thing I'll be focusing on during my internship is the smartflow section of the platfrom. 
+                    This section is a totally new addition that's not yet present in any of the other platforms. Smartflows are basically a 
+                    collection of steps with underlying tasks that have to be completed in a certain order before being able to move on.
+                </p>
+                <p className='pt-4 text-slate-500 leading-relaxed'>
+                    <span className='font-semibold'>Functionalities of a smartflow?</span><br/>
+                    First, the Smart Flows overview allows syndics to easily see all Smart Flows for each building, 
+                    tracking task progress and completion. Second, syndics should manage Smart Flows with CRUD operations (Create, Read, Update, Delete), handling both the 
+                    flows and their individual steps and tasks.
+                </p>
+
+            </div>
+
             <div className='pb-10'>
-                <div className='pb-5 text-2xl font-poppins font-semibold'>
+                <div className='pb-4 text-2xl font-poppins font-semibold'>
                     <h2>Technology Stack</h2>
                 </div>
                 <p className='text-slate-500 leading-relaxed'>
@@ -80,8 +114,7 @@ const Internship = () => {
                     it's always good to learn about new things and try to understand them.
                 </p>
             </div>
-
-
+    
             {/* <div className='flex flex-wrap my-20 lg:gap-24 gap-16'></div> */}
 
             <hr className='border-slate-200' />
