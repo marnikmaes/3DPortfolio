@@ -8,6 +8,7 @@ import kogeka from './kogeka.png'
 import jozef from './jozef.png'
 import college from  './college.png'
 import di from './di.png'
+import squareOne from './squareOne.png'
 
 export {
     hero,
@@ -20,4 +21,5 @@ export {
     jozef,
     college,
     di,
+    squareOne,
 }
