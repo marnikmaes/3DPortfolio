@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-import {squareOne} from '../assets/images'
+import {squareOne, smartflowPageOne, smartflowPageTwo} from '../assets/images'
 
 import CTA from '../components/CTA';
 
@@ -96,10 +96,11 @@ const Internship = () => {
                     <h2>Technology Stack</h2>
                 </div>
                 <p className='text-slate-500 leading-relaxed'>
-                    <span className='font-semibold'>Front-end Development - React</span><br/>
+                    <span className='font-semibold'>Front-end Development - React + Vite</span><br/>
                     The front-end will be developed using React, a popular JavaScript library known for building user interfaces efficiently. 
-                    This choice was right up my alley since my previous positive experiences with React, 
-                    finding it intuitive and seamless for web development.              
+                    This choice aligns perfectly with my previous positive experiences with React, finding it intuitive and seamless for 
+                    web development. Additionally, we'll leverage Vite as the build tool, known for its fast development server and 
+                    lightning-fast hot module replacement (HMR), enhancing the development experience even further.             
                 </p>
                 <p className='pt-4 text-slate-500 leading-relaxed'>
                     <span className='font-semibold'>Back-end Development - .NET</span><br/>
@@ -114,9 +115,7 @@ const Internship = () => {
                     it's always good to learn about new things and try to understand them.
                 </p>
             </div>
-    
-            {/* <div className='flex flex-wrap my-20 lg:gap-24 gap-16'></div> */}
-
+            
             <hr className='border-slate-200' />
 
             <CTA />
