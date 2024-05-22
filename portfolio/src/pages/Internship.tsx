@@ -14,21 +14,22 @@ const Internship = () => {
             </h1>
 
             <p className='text-slate-500 mt-5 leading-relaxed'>
-                As the final stretch of my last year, I completed a 13-week application development internship at <span><Link to={'https://www.ntx.be/en/'} className='font-semibold blue-gradient_text'>Netropolix</Link></span>. 
-                Here, I'll share a brief overview of my experiences and learnings.<br/>
-                For a comprehensive documentation, visit <span><Link to={'https://marnikmaes-internship2024.netlify.app/'} className='font-semibold blue-gradient_text'>my internship documentation website</Link></span>.
+                As the final stretch of my last year, I completed a 13-week application development internship at <span><Link to={'https://www.ntx.be/en/'} className='font-semibold blue-gradient_text' target="_blank" rel="noopener noreferrer">NTX</Link></span>. 
+                <br/>
+                <br/>
+                Here, I'll share a brief overview of my experiences and learnings, but for comprehensive documentation, I kindly request you to visit  <span><Link to={'https://marnikmaes-internship2024.netlify.app/'} className='font-semibold blue-gradient_text' target="_blank" rel="noopener noreferrer">my internship documentation website</Link></span>.
             </p>
 
             <div className='py-5'>
                 <div className='pb-5 text-2xl font-poppins font-semibold'>
-                    <h2>Netropolix</h2>
+                    <h2>NTX</h2>
                 </div>
                 <img src={squareOne} alt="Square One building" className='w-fit h-fit rounded-2xl drop-shadow-md'/>
                 <p className='pt-1 italic text-slate-500 leading-relaxed text-sm'>Square One building, 2440 Geel</p>
                 <p className='pt-4 text-slate-500 leading-relaxed'>
-                    <span className='font-semibold'>What is Netropolix?</span><br/>
-                    Netropolix is an in-house IT company in Geel's Square One building, founded in 1999. Starting with a small accounting package, 
-                    it's now a growing company with 70 employees offering personalized IT solutions and proactive support. They view IT like a light bulb: 
+                    <span className='font-semibold'>What is NTX?</span><br/>
+                    NTX, formerly known as Netropolix, is an in-house IT company located in Geel's Square One building, founded in 1999. Starting with a small accounting package, 
+                    it's now a growing company with around 170 employees offering personalized IT solutions and proactive support. They view IT like a light bulb: 
                     it works in the background when switched on.
                 </p>
                 <p className='pt-4 text-slate-500 leading-relaxed'>
@@ -113,6 +114,20 @@ const Internship = () => {
                     particularly suited for handling large volumes of data. However, later on, the decision changed to PostgreSQL, 
                     a robust SQL database renowned for its reliability and performance. While not inherently part of my scope, 
                     it's always good to learn about new things and try to understand them.
+                </p>
+            </div>
+
+            <div className='pb-10'>
+                <div className='pb-4 text-2xl font-poppins font-semibold'>
+                    <h2>Required documents</h2>
+                </div>
+                <p className='text-slate-500 leading-relaxed'>
+                    <span className='font-semibold'>Project Plan</span><br/>
+                    This section of my internship documentation offers a comprehensive overview of the project's objectives, timeline, and tasks. Developing this plan was crucial for enhancing my understanding of the project, and it served as a valuable guide throughout my work. 
+                    Further details about this project plan and other agreements can be found in the <span><Link to={'https://marnikmaes-internship2024.netlify.app/intro/5w1h.html#how-was-the-internship-managed'} className='font-semibold blue-gradient_text' target="_blank" rel="noopener noreferrer">How was the internship managed?</Link></span> and <span><Link to={'https://marnikmaes-internship2024.netlify.app/PoA/'} className='font-semibold blue-gradient_text' target="_blank" rel="noopener noreferrer">Plan of Action</Link></span> sections of my internship documentation.
+                </p>
+                <p className='pt-4 text-slate-500 leading-relaxed'>
+                    <span className='font-semibold'>Reflection</span><br/>          
                 </p>
             </div>
             
