@@ -192,15 +192,6 @@ export const projects = [
         githubRepo: 'https://github.com/Thomas-More-Digital-Innovation/2324-MOBI-001-exoskeleton-tool',
     },
     {
-        iconUrl: building,
-        theme: 'btn-back-yellow',
-        name: 'Dobby Online',
-        tag: 'Web development',
-        description: "For my internship at Netropolix in Geel, I'll be helping on their new real estate platform, Dobby.Online. The project involves using React for frontend and .NET for backend to enhance the real estate industry's efficiency.",
-        link: 'https://marnikmaes-internship2024.netlify.app/',
-        githubRepo: 'https://github.com/marnikmaes/internship2024_immo_frontend',
-    },
-    {
         iconUrl: augmented,
         theme: 'btn-back-blue',
         name: 'Interactive AR map',
@@ -215,7 +206,7 @@ export const projects = [
         name: 'GSK App',
         tag: 'App development',
         description: "For this project, I developed a mobile app showcasing the services offered by the city of Geel. The app was designed to be user-friendly, even for those with minimal tech knowledge. I utilized Glide to simplify the app creation process.",
-        link: 'https://geel-hulp.glideapp.io/dl/de6ccd',
+        link: 'https://geelsesocialekaart.glideapp.io/  ',
     },
     {
         iconUrl: fox,
