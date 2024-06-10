@@ -33,6 +33,9 @@ import augmented from './augmented.png'
 import geel from './geel.png'
 import fox from './fox.png'
 import pixel from './pixel.png'
+import agile from './agile.png'
+import unity from './unity.png'
+import ue from './ue.png'
 
 export {
     css,
@@ -70,4 +73,7 @@ export {
     geel,
     fox,
     pixel,
+    agile,
+    unity,
+    ue,
 }

@@ -27,6 +27,9 @@ import {
     tailwindcss,
     threads,
     typescript,
+    agile,
+    unity,
+    ue,
 } from "../assets/icons";
 
 export const skills = [
@@ -83,6 +86,21 @@ export const skills = [
     {
         imageUrl: typescript,
         name: "TypeScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: unity,
+        name: "unity",
+        type: "Frontend",
+    },
+    {
+        imageUrl: ue,
+        name: "ue",
+        type: "Frontend",
+    },
+    {
+        imageUrl: agile,
+        name: "agile",
         type: "Frontend",
     },
 ];
