@@ -37,20 +37,20 @@ const CTA = () => {
         <button className='btn w-full' onClick={downloadResume}>Click Here!</button>
       </section>
 
-      <section className='cta flex justify-center space-x-4'>
+      <section className='flex justify-center space-x-6 flex-wrap md:flex-no-wrap mt-20'>
         <Link to={'https://www.linkedin.com/in/marnik-maes-b0aa79250/'} target="_blank" rel="noopener noreferrer">
-          <div className="w-[48px] h-[48px] flex items-center justify-center rounded-full bg-gray-200 hover:bg-blue-500 transition duration-300">
-            <Icon className='w-[32px] h-[32px] hover:text-white transition duration-300' icon="flowbite:linkedin-solid" />
+          <div className="w-[48px] h-[48px] flex items-center justify-center rounded-full bg-gray-200 hover:bg-blue-500 transition duration-300 mb-4 hover:text-white">
+            <Icon className='w-[32px] h-[32px]' icon="flowbite:linkedin-solid" />
           </div>
         </Link>
         <Link to={'https://x.com/MaesMarnik'} target="_blank" rel="noopener noreferrer">
-          <div className="w-[48px] h-[48px] flex items-center justify-center rounded-full bg-gray-200 hover:bg-blue-500 transition duration-300">
-            <Icon className='w-[32px] h-[32px] hover:text-white transition duration-300' icon="hugeicons:new-twitter" />
+          <div className="w-[48px] h-[48px] flex items-center justify-center rounded-full bg-gray-200 hover:bg-blue-500 transition duration-300 mb-4 hover:text-white">
+            <Icon className='w-[32px] h-[32px]' icon="hugeicons:new-twitter" />
           </div>
         </Link>
         <Link to={'https://github.com/marnikmaes'} target="_blank" rel="noopener noreferrer">
-          <div className="w-[48px] h-[48px] flex items-center justify-center rounded-full bg-gray-200 hover:bg-blue-500 transition duration-300">
-            <Icon className='w-[32px] h-[32px] hover:text-white transition duration-300' icon="mingcute:github-fill" />
+          <div className="w-[48px] h-[48px] flex items-center justify-center rounded-full bg-gray-200 hover:bg-blue-500 transition duration-300 mb-4 hover:text-white">
+            <Icon className='w-[32px] h-[32px]' icon="mingcute:github-fill" />
           </div>
         </Link>
       </section>
