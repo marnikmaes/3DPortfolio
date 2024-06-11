@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-import {squareOne, smartflowPageOne, smartflowPageTwo} from '../assets/images'
+import {squareOne} from '../assets/images'
 
 import CTA from '../components/CTA';
 
@@ -127,7 +127,10 @@ const Internship = () => {
                     Further details about this project plan and other agreements can be found in the <span><Link to={'https://marnikmaes-internship2024.netlify.app/intro/5w1h.html#how-was-the-internship-managed'} className='font-semibold blue-gradient_text' target="_blank" rel="noopener noreferrer">How was the internship managed?</Link></span> and <span><Link to={'https://marnikmaes-internship2024.netlify.app/PoA/'} className='font-semibold blue-gradient_text' target="_blank" rel="noopener noreferrer">Plan of Action</Link></span> sections of my internship documentation.
                 </p>
                 <p className='pt-4 text-slate-500 leading-relaxed'>
-                    <span className='font-semibold'>Reflection</span><br/>          
+                    <span className='font-semibold'>Reflection</span><br/>
+                    Looking back on the past 13 weeks, I'm confident in my decision to choose this internship project and location. NTX offered a warm and welcoming environment, surrounded by supportive colleagues and a relaxed atmosphere that fostered productivity.
+                    Despite the inevitable challenges that arose, I was impressed by how effectively and respectfully they were addressed. Every voice was heard, leading to minimal conflicts and smooth collaboration. Throughout my internship, I never felt like just an intern; I was treated with the same respect as any other member of the team, a gesture that I deeply appreciated.
+                    A more indepth reflection can be found in the <span><Link to={'https://marnikmaes-internship2024.netlify.app/reflection/'} className='font-semibold blue-gradient_text' target="_blank" rel="noopener noreferrer">Reflection</Link></span> sectionof my internship documentation.          
                 </p>
             </div>
             

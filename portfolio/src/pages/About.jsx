@@ -6,21 +6,30 @@ import React from 'react'
 import {skills, experiences} from '../constants';
 import CTA from '../components/CTA';
 
+import {me} from "../assets/images";
+
 const About = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        Hello, I'm <span className='blue-gradient_text font-semibold drop-shadow'>Marnik</span>
+        Hello, I'm <span className='blue-gradient_text font-semibold drop-shadow'>Marnik Maes</span>
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>
-          I am an enthusiastic IT student with a passion for continuous learning and growth. 
-          I am deeply motivated to enhance my technology skills on every level. With a strong commitment 
-          to staying up-to-date with the latest industry trends, I thrive on the challenges that come with 
-          working in the ever-evolving IT landscape.
-        </p>
+        <div className='w-full flex align-top gap-4'>
+          <img src={me} alt="me" className='rounded-2xl drop-shadow-xl'/>
+          <p className='text-left'>
+            I am an enthusiastic IT student with a passion for continuous learning and growth. 
+            I am deeply motivated to enhance my technology skills on every level. With a strong commitment 
+            to staying up-to-date with the latest industry trends, I thrive on the challenges that come with 
+            working in the ever-evolving IT landscape.
+            <br/>
+            <br/>
+            A quote I firmly stand by is: <span className='blue-gradient_text font-semibold drop-shadow'>"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."</span>. This, to me, perfectly encapsulates what it means to excel as an IT professional.
+          </p>
+        </div>
       </div>
+      
       <div className='py-10 flex flex-col'>
         <h3 className='subhead-text'>My Skills</h3>
         <div className='mt-16 flex flex-wrap gap-12'>

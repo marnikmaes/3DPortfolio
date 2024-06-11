@@ -36,6 +36,8 @@ import pixel from './pixel.png'
 import agile from './agile.png'
 import unity from './unity.png'
 import ue from './ue.png'
+import linkedinCTA from './linkedinCTA.png'
+import twitterCTA from './twitterCTA.png'
 
 export {
     css,
@@ -76,4 +78,7 @@ export {
     agile,
     unity,
     ue,
+    linkedinCTA,
+    twitterCTA,
+
 }
