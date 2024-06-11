@@ -16,8 +16,8 @@ const About = () => {
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <div className='w-full flex align-top gap-4'>
-          <img src={me} alt="me" className='rounded-2xl drop-shadow-xl'/>
+        <div className='w-full flex flex-col gap-4 md:flex-row md:items-center'>
+          <img src={me} alt="me" className='w-full md:w-auto rounded-2xl drop-shadow-xl'/>
           <p className='text-left'>
             I am an enthusiastic IT student with a passion for continuous learning and growth. 
             I am deeply motivated to enhance my technology skills on every level. With a strong commitment 
@@ -29,6 +29,7 @@ const About = () => {
           </p>
         </div>
       </div>
+
       
       <div className='py-10 flex flex-col'>
         <h3 className='subhead-text'>My Skills</h3>
