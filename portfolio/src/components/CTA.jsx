@@ -1,4 +1,6 @@
 import React from 'react';
+import { Icon } from '@iconify/react';
+import { Link } from "react-router-dom";
 
 const CTA = () => {
   const copyEmailToClipboard = () => {
@@ -32,7 +34,25 @@ const CTA = () => {
       <section className='cta'>
         <p className='cta-text'>Interested in my skills and experience?<br className='sm:block hidden'/> 
           Download my resume here!</p>
-         <button className='btn w-full' onClick={downloadResume}>Click Here!</button>
+        <button className='btn w-full' onClick={downloadResume}>Click Here!</button>
+      </section>
+
+      <section className='cta flex justify-center space-x-4'>
+        <Link to={'https://www.linkedin.com/in/marnik-maes-b0aa79250/'} target="_blank" rel="noopener noreferrer">
+          <div className="w-[48px] h-[48px] flex items-center justify-center rounded-full bg-gray-200 hover:bg-blue-500 transition duration-300">
+            <Icon className='w-[32px] h-[32px] hover:text-white transition duration-300' icon="flowbite:linkedin-solid" />
+          </div>
+        </Link>
+        <Link to={'https://x.com/MaesMarnik'} target="_blank" rel="noopener noreferrer">
+          <div className="w-[48px] h-[48px] flex items-center justify-center rounded-full bg-gray-200 hover:bg-blue-500 transition duration-300">
+            <Icon className='w-[32px] h-[32px] hover:text-white transition duration-300' icon="hugeicons:new-twitter" />
+          </div>
+        </Link>
+        <Link to={'https://github.com/marnikmaes'} target="_blank" rel="noopener noreferrer">
+          <div className="w-[48px] h-[48px] flex items-center justify-center rounded-full bg-gray-200 hover:bg-blue-500 transition duration-300">
+            <Icon className='w-[32px] h-[32px] hover:text-white transition duration-300' icon="mingcute:github-fill" />
+          </div>
+        </Link>
       </section>
     </>
   );

@@ -9,7 +9,7 @@ import jozef from './jozef.png'
 import college from  './college.png'
 import di from './di.png'
 import squareOne from './squareOne.png'
-
+import me from './me.jpg'
 export {
     hero,
     meta,
@@ -22,4 +22,5 @@ export {
     college,
     di,
     squareOne,
+    me,
 }

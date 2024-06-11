@@ -16,7 +16,7 @@ const Projects = () => {
             From crafting websites to diving into game development to creating interactive AR experiences, it's been a wild ride!
             Check out some of my favorite projects below.
             </p>
-            <div className='flex flex-wrap my-20 lg:gap-24 gap-16'>
+            <div className='flex flex-wrap my-16 lg:gap-24 gap-16'>
                 {projects.map((project) => (
                     <div className='lg:w-[400px] w-full' key={project.name}>
                         <div className='block-container w-12 h-12'>
@@ -29,7 +29,7 @@ const Projects = () => {
                                 />
                             </div>
                         </div>
-                        <div className='mt-5 flex flex-col'>
+                        <div className='mt-6 flex flex-col'>
                             <p className="text-sm font-light ">{project.tag}</p>
                             <h4 className='text-2xl font-poppins font-semibold'>
                                 {project.name}
